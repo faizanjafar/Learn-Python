@@ -8,4 +8,4 @@ def func():
 print("calling function")
 t = Thread(target=func)
 t.start()
-print("function is calling")
+print("function is calling...")
