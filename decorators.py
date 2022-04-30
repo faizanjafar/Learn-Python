@@ -9,7 +9,7 @@ def decorator_func(url):
     return wrapper_func
 
 
-@decorator_func(url="asdasd")
+@decorator_func(url="google.com")
 def sayHello(name):
     print("Hello ",name)
 
